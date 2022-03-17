@@ -1,0 +1,185 @@
+Hyper Text Markup Language 
+
+HTML is used to design structure of a webpage. 
+
+
+Tags
+These are the hidden key word in web page that create 
+format for web page and by using these browser arrange 
+elements.
+
+
+There are two kind of tags
+
+
+Opening Tag 
+Use to open an element like:-
+<html>, <body>, <p> etc.
+
+
+Closing Tag
+Use to close an element like:-
+</html>, </body>, </p> etc.
+
+
+
+Some Important Tags.  
+
+
+<!DOCTYPE html>
+
+Tell the version of HTML to the browser.
+There is no closing tag.
+
+
+
+<HTML> & </HTML>
+Define a HTML document
+
+
+
+<HEAD> & </HEAD>
+Contains metadata/information for the document.
+
+
+
+<TITLE> & </TITLE>
+Define a title for the document.
+
+
+
+<BODY> & </BODY>
+Define the document's body.
+
+
+
+<!--...--> 
+Contain comments, Comment are hidden. for webpage but visible 
+for document.  
+
+
+Element, Tag and Attribute 
+
+What is Tag?
+Whenever we have to define an element we use tags.
+There are two kinds of tags openig & closing.
+
+What is Element?
+Content nested inside tags is know as element.
+
+
+Different between Element & Tag
+Elements & tags are similar to each other but only 
+difference is tag define elements and element loaded 
+by browser.
+
+For Example:-
+
+<html>
+<body>
+<div>
+	<h2>Heading</h2>
+	<p>This is paragraph--------</p>
+</div>
+</body>
+</html>
+
+As you can see we define "Heading element" using <h2> tag.
+
+
+
+What is Attribute?  
+Attribute provide more functionality to the element.
+we always define attribute inside opening tag.
+These attribute contain a specific value.
+
+For example:-
+
+Case-1
+
+<html>
+<body>
+<div class="intro">
+<form action="" method="">
+
+<label for="t-1">Content:</label>
+<input type="text" name="" id="t-1"/>
+
+</form>
+</div>
+</body>
+</html>
+
+As you can see we use "for" attribute to define a specific id 
+for that label.
+
+In "input" tag we use "id" attribute to define label for 
+one line text box and values for both the attributes is same.
+
+There are same kind of attribute which only used for few 
+tag.
+
+For Example:-
+
+"for" attibute is only used in "label" tag. In the other hand
+we have "class" attribute which is used in almost every tag.
+
+Common Tags.
+
+Every element has both Opening & Closing Tag
+
+
+
+Heading Tag
+
+The font size of the heading depends upon it tag.
+
+<h1></h1> to <h6></h6>
+
+
+
+Paragraph Tag 
+
+Define a paragraph.
+
+<p></p>
+
+
+Break Tag 
+
+Insert a single line breake.
+This tag doesn't use closing ta.
+
+<br>
+
+Nested Elements 
+
+Putting an element inside another element
+
+For example:-
+Body & Head Element are nested inside HTML element.
+
+HTML element is called root elements.
+
+
+Parent & Child Element.
+
+Nested element are known as child elements and parent 
+elements are  root element for nested element.
+
+For Example:-
+<html>
+<body>
+<p></p>
+</body>
+</html>
+
+In this case "Body" Element is parent element and 
+"Paragraph" is child element.
+
+
+
+
+
+
+
