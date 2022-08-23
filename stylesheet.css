@@ -151,7 +151,7 @@
     width:184px;
     border:2px dashed #000;
     border-radius:15px;
-    transition: transform .75s;
+    transition: transform .35s;
     overflow: hidden;
 }
 
@@ -165,7 +165,7 @@
 }
 
 .img:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
 }
 
 
