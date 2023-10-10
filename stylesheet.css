@@ -149,7 +149,7 @@
 .img{
     height:220px;
     width:184px;
-    border:2px dashed #000;
+    border:1.8px solid #000;
     border-radius:15px;
     transition: transform .35s;
     overflow: hidden;
@@ -165,7 +165,8 @@
 }
 
 .img:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
 }
 
 
